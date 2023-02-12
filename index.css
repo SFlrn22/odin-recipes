@@ -86,3 +86,64 @@ li > a:hover{
     margin: auto;
 }
 
+.hero{
+    height: 100%;
+}
+
+.a-main {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
+} 
+
+.centered {
+    text-align: center;
+}
+
+.m-25 {
+    margin: 25px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.prod-img {
+    object-fit: cover;
+    height: 355px;
+    display: block;
+    margin: auto auto;
+}
+
+.recipe-info h1 {
+    margin: 20px;
+}
+
+.recipe-info p {
+    font-size: 20px;
+    margin: auto 40px;
+}
+
+.recipe-info ul, ol{
+    margin: auto 80px;
+    font-size: 20px;
+}
+
+.recipe-info ol li:last-child{
+    padding-bottom: 22px;
+}
+
+.recipe-info ul li::marker{
+    color: red;
+}
+
+.hero-text {
+    padding: 150px;
+}
